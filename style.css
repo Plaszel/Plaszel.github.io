@@ -15,9 +15,10 @@ body {
   .header{
     font-size: 100px;
     font-family: cosmicsans;
-    position: absolute;
+    text-align: center;
+    position: relative;
     top: 40%;
-    left: 24%;
+    
   }
 
   @font-face { font-family: cosmicsans; src: url(Font/Ldfcomicsans-jj7l.ttf); }
