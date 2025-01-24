@@ -1,0 +1,23 @@
+body {
+    height:  100vh;
+    background: linear-gradient(
+      45deg,
+      red,
+      orange,
+      yellow,
+      green,
+      blue,
+      indigo,
+      violet,
+      red
+    );
+  }
+  .header{
+    font-size: 100px;
+    font-family: cosmicsans;
+    position: absolute;
+    top: 40%;
+    left: 24%;
+  }
+
+  @font-face { font-family: cosmicsans; src: url(Font/Ldfcomicsans-jj7l.ttf); }
