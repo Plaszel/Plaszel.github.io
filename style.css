@@ -1,16 +1,9 @@
 body {
     height:  100vh;
-    background: linear-gradient(
-      45deg,
-      red,
-      orange,
-      yellow,
-      green,
-      blue,
-      indigo,
-      violet,
-      red
-    );
+    background-image: url(Images/background.webp);
+    background-color: rgba(0, 0, 0, 0.151);
+    background-blend-mode: darken;
+
   }
   .header{
     font-size: 100px;
@@ -19,6 +12,34 @@ body {
     position: relative;
     top: 40%;
     
+  }
+  .main{
+   
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    padding-top: 100px;
+  }
+
+  .para{
+    background-color: rgb(167, 167, 167);
+    border: 6px solid rgb(35, 3, 150);
+    border-radius: 15px;
+  }
+
+  .about{
+    
+    width: 1000px;
+    height: 200px; 
+    margin-right: 50px;
+  }
+
+  .right{
+   
+    width: 200px;
+    height: 600px;
+    margin-right: 50px;
   }
 
   @font-face { font-family: cosmicsans; src: url(Font/Ldfcomicsans-jj7l.ttf); }
